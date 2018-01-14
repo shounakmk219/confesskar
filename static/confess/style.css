@@ -1,0 +1,177 @@
+/* * { border: 3px solid red;}*/
+* {
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    -ms-box-sizing: border-box;
+
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width:300px){
+p{
+	background-color:"blue";
+}
+}
+body{
+    height: auto;
+    background-image: url("images/index.jpg"); 
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+.rowc{
+	width:100%;
+	height:8%;
+	align-items: center;
+	display: flex;
+}
+.row {
+    width: 100%;
+	align-items:center;
+	height: 100%;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+
+.col-2 {
+    width: 16.66%;
+}
+
+
+.col-3 {
+    width: 35%;
+}
+
+
+.col-4 {
+    width: 33.33%;
+}
+
+
+.col-5 {
+    width: 41.66%;
+}
+
+
+.col-6 {
+   
+ width: 50%;
+}
+
+
+.col-7 {
+    width: 58.33%;
+}
+
+
+.col-8 {
+    width: 66.66%;
+}
+
+
+.col-9 {
+    width: 75%;
+}
+
+
+.col-10 {
+    width: 83.33%;
+}
+
+
+.col-11 {
+    width: 91.66%;
+}
+
+
+.col-12 {
+    width: 100%;
+}
+
+.box{
+  border-width: 3px;
+  border-color: grey;
+  border-style: solid;
+  border-collapse: separate;
+  border-spacing: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+ .text{
+  font-size: 100%;
+  font-family: Courier, Monaco, monospace;
+  color: white;
+}
+
+input[type=checkbox]{
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}	
+#check{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}	
+label{
+ width: 100%;
+ font-size: 100%;
+ margin: 10px;
+}
+
+h2{
+ top: 20%;
+ text-align: right;
+ padding: 20px; 
+     font-family: 'Sofia';
+    font-size: 22px;
+}
+
+h1{
+ text-align:center;
+ background-size:80px 60px;
+ background-color:#000000; 
+ color: white;
+     font-family: 'Sofia';
+
+}
+
+p{
+ top: 30%;
+ background-color: #000000;
+ width:50%;
+ color:MidnightBlue;
+ padding: 10px;
+    font-family: 'Sofia';
+    font-size: 22px;
+
+}
+
+h3{
+    font-size: 40px;
+    top:200px;
+}
+
+

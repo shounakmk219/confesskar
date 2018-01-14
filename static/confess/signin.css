@@ -1,0 +1,14 @@
+ /** { border: 3px solid red;}*/
+body{
+	align-content: center;
+	margin: 100px auto;
+	background-color: blue;
+	background-image: url(./images/elice.png);
+}
+
+.text{
+	font-size: 100%;
+	font-family: arial;
+	color: white;
+}
+
